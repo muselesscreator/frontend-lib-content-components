@@ -13,6 +13,7 @@ export default StrictDict({
     plugins.hr,
     plugins.charmap,
     plugins.code,
+    '-codemirror',
     plugins.autoresize,
     plugins.image,
     plugins.imagetools,
@@ -48,5 +49,13 @@ export default StrictDict({
     height: '100%',
     menubar: false,
     min_height: 500,
+  },
+  codemirror: {
+    saveCursorPosition: true,
+    path: '../../plugins/codemirror',
+    indentOnInit: false,
+    fullscreen: false,
+    width: 800,
+    height: 550,
   },
 });

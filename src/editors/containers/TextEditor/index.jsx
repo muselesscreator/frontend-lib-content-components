@@ -19,6 +19,7 @@ import 'tinymce/plugins/code';
 import 'tinymce/plugins/autoresize';
 import 'tinymce/plugins/image';
 import 'tinymce/plugins/imagetools';
+import '../../../plugins/codemirror/plugin';
 
 import {
   Spinner,

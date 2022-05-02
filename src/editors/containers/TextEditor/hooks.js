@@ -45,6 +45,7 @@ export const editorConfig = ({
     imagetools_toolbar: pluginConfig.imageToolbar,
     toolbar: pluginConfig.toolbar,
     contextmenu: 'link table',
+    codemirror: pluginConfig.codemirror,
     ...pluginConfig.config,
   },
 });
